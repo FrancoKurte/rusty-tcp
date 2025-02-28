@@ -1,0 +1,13 @@
+[package]
+name = "rusty-tcp"
+version = "0.1.0"
+authors = ["Franco Kurte"]
+description = "High performance TCP library in Rust"
+licence = "MIT"
+repository = "https://github.com/FrancoKurte/rusty-tcp"
+edition = "2021"
+readme = "README.md"
+
+[dependencies]
+tun-tap = "0.1.4"
+etherparse = "0.17"
