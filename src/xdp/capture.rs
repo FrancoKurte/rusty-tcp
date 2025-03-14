@@ -9,7 +9,8 @@ use libc::c_uint;
 /// Handle to the XDP loader (defined in C)
 #[repr(C)]
 struct XdpLoader {
-    _private: [u8; 0], // Actual fields are in C
+    // Actual fields are in C
+    _private: [u8; 0],
 }
 
 extern "C" {
@@ -57,7 +58,7 @@ extern "C" fn process_sample(_ctx: *mut c_void, data: *mut c_void, _size: c_uint
         });
     }
     
-    0 // Return 0 to continue processing
+    0
 }
 
 /// Manages the XDP frame capture functionality.
