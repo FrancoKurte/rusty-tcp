@@ -1,2 +1,11 @@
-./target
-./run.zsh
+/target
+/run_main.zsh
+/publish.zsh
+/src/bin
+/src/net
+/src/net/ctrl
+/src/net/proto
+/src/parser
+/tests
+/tests/integration_tests.rs
+
