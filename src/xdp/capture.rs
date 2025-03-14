@@ -6,10 +6,10 @@ use std::slice;
 use libc::{c_char, c_int};
 use libc::c_uint;
 
-/// Opaque handle to the XDP loader (defined in C)
+/// Handle to the XDP loader (defined in C)
 #[repr(C)]
 struct XdpLoader {
-    _private: [u8; 0], // Opaque type, actual fields are in C
+    _private: [u8; 0], // Actual fields are in C
 }
 
 extern "C" {

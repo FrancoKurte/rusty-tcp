@@ -9,3 +9,4 @@
 /tests
 /tests/integration_tests.rs
 
+Cargo.lock

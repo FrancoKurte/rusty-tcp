@@ -63,8 +63,7 @@ The `capturing_frames.rs` example performs the following actions:
 
 *   Ensure you have followed the installation instructions in the main project `README.md` to set up the Rust toolchain, Clang, libbpf, and have a Linux kernel with XDP support.
 *   You need to have built the `rusty_tcp` library using `cargo build` in the project's root directory before running this example. This ensures that the core library components are compiled and available.
-*   **Example-Specific Dependencies:** This example, `capturing_frames.rs`, utilizes additional Rust crates for functionality specific to the example, such as error handling and hexadecimal output formatting. These dependencies are:
-    * [anyhow](https://crates.io/crates/anyhow) : For convenient error handling.
+*   **Example-Specific Dependencies:** This example, `capturing_frames.rs`, utilizes additional Rust crates for functionality specific to the example, such as error handling and hexadecimal output formatting. The extra dependency is:
     *   [hex](https://crates.io/crates/hex) : For generating hexdump output.
 
 
